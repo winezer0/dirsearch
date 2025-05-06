@@ -117,6 +117,7 @@ def parse_arguments() -> Values:
         help="Exclude extension list, separated by commas (e.g. asp,jsp)",
     )
     dictionary.add_option(
+        "-D",
         "--remove-extensions",
         action="store_true",
         dest="remove_extensions",
